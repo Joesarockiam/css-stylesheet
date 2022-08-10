@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<style>
+* {
+   box-sizing: border-box;
+    }
+
+body {
+      margin: 0;
+       }
+
+/* Style the header */
+.header {
+          background-color: white;
+          padding: 10px;
+          text-align: center;
+          }
+.para{  float: left;
+        width: 16px;
+        height: 15px;
+        }
+       
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+  width:1458px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:Bahnschrift;
+  font-variant:bold;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+                  background-color: #ddd;
+                  color: black;
+                  }
+.product {
+  background-color: white;
+  float:left;
+  width:26%;
+  border-radius: 20px;
+  border: 0px solid black;
+  padding:5px 20px 2px 20px;
+  margin-left:20;
+  justify-content: center;
+  color: black;
+  text-decoration:none;
+  box-shadow: 5px 10px 20px 2px #d6d6d6;
+  z-index:+1;
+  font-family:Bahnschrift;
+  font-weight:bold;
+  }
+
+.product a{
+  text-decoration:none;
+  color:black;	
+}
+
+.pimage{
+  width: 100;
+  height: 100;
+  padding-left:35; 
+  padding-top:30;  
+  transition: height 500ms;
+}
+
+.pimage:hover{
+  height:250;
+}
+.ptitle{ 
+  font-size:20;
+  text-align:left;
+}
+
+.pprice{ 
+  font-size:25;
+  text-align:right;
+  margin-top:-50;
+  color:#164a41;
+}
+
+.buynow:hover {
+  background-color: #164a41; 
+  color: white;
+  border-radius:25px;
+}
+
+.buynow{
+  border-radius:20px;
+  width:100%;
+  justify-content: center;
+  height:25px;
+  background-color: white;
+  color: black;
+  font-family:Bahnschrift;
+  font-weight:bold;
+  border: 2px solid #164a41;
+  transition-duration:500ms;
+}
+
+.footer{
+  padding-top:500;
+  text-align:center;
+}
+
+.space{
+  padding-top:700;
+}
+
+
+</style>
+</head>
+
+<body>
+<html>
+<head>
+<title>
+Jet Sport
+</title>
+<div class="para">
+<img src="https://cdn1.vectorstock.com/i/1000x1000/75/60/logo-sport-shop-vector-5857560.jpg" width: "100px" height="100px">
+</div>
+
+<div class="header">
+  <h1>SPORTS STORE</h1>
+</div>
+
+
+<div class="topnav">
+  <a href="file:///C:/Users/joesa/Downloads/login.html">LOGIN PAGE</a>
+  <a href="file:///C:/Users/joesa/Downloads/imgsport.html">Link</a>
+  <a href="#">Link</a>
+</div>
+<link href='styles.css' rel='stylesheet'>
+<div class="bg-img">
+ <div class="container">
+	<div class="banner">
+		<p class='welcome'>Welcome to</p>
+		<p class='titlel'>JET SPORT PVT LIMITED</p>
+	</div>
+  </div>
+</div> 
+
+<div class="container2">
+	<div class="divt">
+		<p class='he1'>Get a 30% Discount on all</p>
+		<p class='he2'>Cricket Related Products</p>
+		<hr class="solid">
+	</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="pc" >
+	<div class="product">
+			<a href='cb.html'>
+			<img class="pimage" src="">
+			<p class="ptitle">CRICKET BAT</p>
+			<p class="pprice">$200.00</p>
+			<button class="buynow" onclick=url('cb.html')>BUY NOW</button></p></a>
+	</div>
+	
+	<div  class="product">
+			<a href='cb.html'>
+			<img class="pimage" src="sr.jpg">
+			<p class="ptitle">CRICKET BAT</p>
+			<p class="pprice">$200.00</p>
+			<button class="buynow" onclick=url('cb.html')>BUY NOW</button></p></a>
+	</div>
+	<div class="product">
+			<a href='cb.html'>
+			<img class="pimage" src="r.jpg">
+			<p class="ptitle">CRICKET BAT</p>
+			<p class="pprice">$200.00</p>
+			<button class="buynow" onclick=url('cb.html')>BUY NOW</button></p></a>
+	</div>
+</div>
+<div class="pc" style="padding-top:420px">
+	<div class="product">
+			<a href='cb.html'>
+			<img class="pimage" src="cb.jpg">
+			<p class="ptitle">CRICKET BAT</p>
+			<p class="pprice">$200.00</p>
+			<button class="buynow" onclick=url('cb.html')>BUY NOW</button></p></a>
+	</div>
+	
+		<div class="product">
+			<a href='cb.html'>
+			<img class="pimage" src="cl.jpg">
+			<p class="ptitle">CRICKET BAT</p>
+			<p class="pprice">$200.00</p>
+			<button class="buynow" onclick=url('cb.html')>BUY NOW</button></p></a>
+	</div>
+	<div class="product">
+			<a href='cb.html'>
+			<img class="pimage" src="c.jpg">
+			<p class="ptitle">CRICKET BAT</p>
+			<p class="pprice">$200.00</p>
+			<button class="buynow" onclick=url('cb.html')>BUY NOW</button></p></a>
+	</div>
+</div>
+<div class="footer">
+	<p class="end">***END OF WEBPAGE***</p>
+</body>
+
+
+  
+</html>
+
